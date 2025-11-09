@@ -1,0 +1,13 @@
+.main-content-area {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 15px 0;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.content-placeholder {
+    font-size: 18px;
+}

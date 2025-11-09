@@ -1,7 +1,9 @@
+import '../styles/MainContent.css'
+
 const MainContent = () => {
     return (
         <div className="main-content-area">
-            <p className="conten-placeholder">-- Content Goes Here -- </p>
+            <p className="content-placeholder">-- Content Goes Here -- </p>
         </div>
     );
 };
