@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import MainContent from "./components/MainContent";
 
 function App() {
     return (
@@ -6,9 +7,7 @@ function App() {
             <Header />
 
             <main>
-                <div className="content-area">
-                    <p>Content goes here</p>
-                </div>
+                <MainContent />
             </main>
         </>
     )
