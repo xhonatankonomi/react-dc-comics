@@ -1,7 +1,13 @@
+import Logo from './Logo'
+import Navbar from './Navbar'
+
 const Header = () => {
     return (
         <header className="main-header">
-            <p>Sono l'header!</p>
+            <div className="header-content-wrapper">
+                <Logo />
+                <Navbar />
+            </div>
         </header>
     );
 };
