@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import MainContent from "./components/MainContent";
+import UtilityBar from "./components/UtilityBar";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
 
             <main>
                 <MainContent />
+                <UtilityBar />
             </main>
         </>
     )
