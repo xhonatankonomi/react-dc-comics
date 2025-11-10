@@ -1,3 +1,5 @@
+import '../styles/Footer.css'
+
 import FooterBottom from "./FooterBootom";
 import FooterLinks from "./FooterLinks";
 

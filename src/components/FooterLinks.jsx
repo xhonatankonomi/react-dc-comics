@@ -34,9 +34,6 @@ const FooterLinks = () => {
                     </div>
                 ))}
             </div>
-            <div className="dc-logo-bg">
-
-            </div>
         </div>
     );
 };
