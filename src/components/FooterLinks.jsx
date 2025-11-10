@@ -22,7 +22,7 @@ const FooterLinks = () => {
 
     return (
         <div className="footer-top">
-            <div className="link-section">
+            <div className="links-section">
                 {footerData.map((col, index) => (
                     <div className="link-columm" key={index}>
                         <h3>{col.title}</h3>

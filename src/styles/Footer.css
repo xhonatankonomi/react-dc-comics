@@ -1,21 +1,28 @@
 .footer-top {
     background-image: url('../assets/dc-logo-bg.png');
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center right;
     height: 350px;
-    display: flex;
-    justify-content: space-between;
     padding: 30px 0;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-.link-section {
+.footer-top-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.links-section {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     padding-right: 50px;
-    max-height: 350px;
+    max-height: 250px;
 }
 
 .link-column h3 {
@@ -28,7 +35,7 @@
 .link-column ul {
     list-style: none;
     padding: 0;
-    margin: 0 20px 20px 0;
+    margin: 5px 0 20px 0;
 }
 
 .link-column a {
