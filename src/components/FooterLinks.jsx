@@ -1,3 +1,5 @@
+import '../styles/Footer.css'
+
 const FooterLinks = () => {
     const footerData = [
         {
